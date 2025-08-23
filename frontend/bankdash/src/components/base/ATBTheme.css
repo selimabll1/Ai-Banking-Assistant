@@ -1,0 +1,46 @@
+/* ATB brand tokens */
+:root{
+  --atb-red-600:#9B0F0F;
+  --atb-red-700:#7f0c0c;
+  --atb-red-500:#C21E1E;
+  --atb-ink:#1e293b;
+}
+
+/* page background (no image; soft red vignette) */
+.atb-app-bg{
+  min-height:100vh;
+  background:
+    radial-gradient(1600px 700px at 80% -10%, rgba(155,15,15,.20), transparent 60%),
+    linear-gradient(180deg,#fafafa,#f4f4f4 60%, #f0f0f0);
+}
+
+/* top ribbon similar to atb.tn */
+.atb-ribbon{
+  background:linear-gradient(90deg, var(--atb-red-700), var(--atb-red-500));
+  color:#fff;
+  box-shadow:0 2px 10px rgba(0,0,0,.15) inset, 0 2px 12px rgba(0,0,0,.15);
+}
+
+/* translucent card surface so charts are readable */
+.atb-surface{
+  background:rgba(255,255,255,.9);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:16px;
+}
+
+/* make primary buttons ATB red (optional override) */
+.btn-primary{
+  background-color:var(--atb-red-600);
+  border-color:var(--atb-red-600);
+}
+.btn-primary:hover{
+  background-color:var(--atb-red-700);
+  border-color:var(--atb-red-700);
+}
+/* optional: tighter brand polish */
+body {
+  background: linear-gradient(180deg, #fafafa 0%, #f5f6f8 100%);
+}
+

@@ -1,0 +1,45 @@
+/* ATB title underline */
+.atb-section-title {
+  font-weight: 700;
+  color: #2f3a43;
+  position: relative;
+  display: inline-block;
+}
+.atb-section-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 48px;
+  height: 4px;
+  background: #9b0f0f; /* ATB red */
+  border-radius: 2px;
+}
+
+/* Service card */
+.atb-service-card {
+  display: flex;
+  gap: 16px;
+  padding: 18px 18px;
+  border-radius: 14px;
+  background: #f7f9fa;
+}
+
+/* Service icon bubble */
+.atb-service-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #7c919f22;
+  color: #6f808c;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  flex: 0 0 72px;
+}
+
+.atb-service-title {
+  color: #33444f;
+  margin-top: 6px;
+}
