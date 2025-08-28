@@ -1,0 +1,31 @@
+﻿# --- Node / React ---
+node_modules/
+build/
+dist/
+*.log
+.eslintcache
+
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+venv/
+*.coverage*
+htmlcov/
+
+# --- RAG / models / indexes ---
+models/
+checkpoints/
+index_store/
+vector_store/
+rag_cache/
+*.gguf
+*.bin
+*.pt
+*.safetensors
+
+# --- IDE / OS ---
+.vscode/
+.DS_Store
+Thumbs.db
