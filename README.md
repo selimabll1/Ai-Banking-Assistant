@@ -1,11 +1,11 @@
-🏦 AI Banking Assistant for Arab Tunisian Bank ATB 
+﻿ðŸ¦ AI Banking Assistant for Arab Tunisian Bank ATB 
 
 An AI-powered banking chatbot platform built with Django (backend) and React (frontend), leveraging RAG (Retrieval-Augmented Generation), Mistral models served via Ollama, and advanced AI workflows for financial services.
 
 This assistant is designed to help bank clients with smart responses, ticket reservations, and auto-form filling, making the banking experience seamless and intuitive.
 
-🚀 Features
-🔹 Core AI Capabilities
+ðŸš€ Features
+ðŸ”¹ Core AI Capabilities
 
 Retrieval-Augmented Generation (RAG)
 
@@ -26,27 +26,27 @@ Adapted Mistral with banking-specific terminology.
 
 Supports RAG + fine-tuned models to handle client-specific knowledge bases.
 
-🏦 Banking Use Cases
+ðŸ¦ Banking Use Cases
 
-💬 AI Smart Responses
+ðŸ’¬ AI Smart Responses
 
 Answers client queries about balances, services, card issues, and support FAQs.
 
 Context-aware responses with secure handling of sensitive data.
 
-🎟 Ticket Reservation System
+ðŸŽŸ Ticket Reservation System
 
 AI-guided reservation of tickets (bank appointments, customer service slots).
 
 Chat-based interaction: "Book me an appointment with a loan officer tomorrow at 10 AM."
 
-📝 Smart Form Filling
+ðŸ“ Smart Form Filling
 
 Automatically fills banking forms (loan applications, account requests, transfers).
 
 Extracts info from client messages and suggests pre-filled forms for faster submission.
 
-🖥 Tech Stack
+ðŸ–¥ Tech Stack
 
 Frontend: React (modern UI/UX)
 
@@ -62,23 +62,23 @@ Database: SQLite / SQL
 
 Other: Docker-ready setup, GitHub CI/CD friendly
 
-⚙️ Project Structure
+âš™ï¸ Project Structure
 Ai-Banking-Assistant/
-│
-├── backend/              # Django backend API (chat, RAG, reservations, forms)
-│   ├── manage.py
-│   ├── requirements.txt
-│   └── apps/...
-│
-├── frontend/             # React frontend (chat interface, dashboards)
-│   ├── package.json
-│   └── src/...
-│
-├── .gitignore
-├── README.md
-└── requirements.txt
+â”‚
+â”œâ”€â”€ backend/              # Django backend API (chat, RAG, reservations, forms)
+â”‚   â”œâ”€â”€ manage.py
+â”‚   â”œâ”€â”€ requirements.txt
+â”‚   â””â”€â”€ apps/...
+â”‚
+â”œâ”€â”€ frontend/             # React frontend (chat interface, dashboards)
+â”‚   â”œâ”€â”€ package.json
+â”‚   â””â”€â”€ src/...
+â”‚
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ README.md
+â””â”€â”€ requirements.txt
 
-🛠 Setup & Installation
+ðŸ›  Setup & Installation
 Backend (Django + RAG + Ollama)
 cd backend
 python -m venv venv
@@ -103,9 +103,9 @@ Ollama + Mistral
 ollama pull mistral
 ollama serve
 
-🧠 How It Works
+ðŸ§  How It Works
 
-Client asks a question → frontend sends it to backend.
+Client asks a question â†’ frontend sends it to backend.
 
 Backend retrieves context (via RAG from banking knowledge base).
 
@@ -115,7 +115,7 @@ Optional fine-tuning ensures domain-specific terminology is accurate.
 
 Client receives smart response or auto-filled forms.
 
-🌟 Roadmap
+ðŸŒŸ Roadmap
 
  Add multilingual support (English, French, Arabic)
 
@@ -127,21 +127,22 @@ Client receives smart response or auto-filled forms.
 
  Add secure role-based access (admin, staff, client)
 
-📸 Screenshots (Coming Soon)
+ðŸ“¸ Screenshots (Coming Soon)
 
-🔹 Chatbot interface in React
+ðŸ”¹ Chatbot interface in React
 
-🔹 Banking form auto-fill demo
+ðŸ”¹ Banking form auto-fill demo
 
-🔹 Ticket reservation workflow
+ðŸ”¹ Ticket reservation workflow
 
-🤝 Contributing
+ðŸ¤ Contributing
 
 Contributions are welcome! Please fork the repo and submit a PR.
 
-📜 License
+ðŸ“œ License
 
 MIT License. Free to use, modify, and share.
 
-✨ With AI Banking Assistant, banks can offer faster, smarter, and more secure customer experiences powered by next-gen AI.
+âœ¨ With AI Banking Assistant, banks can offer faster, smarter, and more secure customer experiences powered by next-gen AI.
+
 
