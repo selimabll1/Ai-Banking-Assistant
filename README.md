@@ -2,7 +2,7 @@
 ## 🏦 AI Banking Assistant Overview
 
 AI Banking Assistant is an intelligent chatbot platform designed for modern banking services.
-It combines React (frontend) and Django (backend) with RAG (Retrieval-Augmented Generation), Mistral models served via Ollama, and fine-tuning, to deliver smart, real-time assistance to bank clients.
+It combines React (frontend) and Django (backend) with RAG (Retrieval-Augmented Generation), llm model Mistral served via Ollama, and fine-tuning, to deliver smart, real-time assistance to bank clients.
 
 The system enhances customer support by enabling:
 
@@ -146,5 +146,6 @@ Ticket booking confirmations
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
 
 
